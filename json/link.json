@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Пицца",
+    "href": "/catalog/pizza/"
+  },
+  {
+    "name": "Суши",
+    "href": "/catalog/sushi/"
+  },
+  {
+    "name": "Лапша WOK",
+    "href": "/catalog/lapsha-wok/"
+  },
+  {
+    "name": "Кухня",
+    "href": "/catalog/kukhnya/"
+  },
+  {
+    "name": "Фритюр",
+    "href": "/catalog/frityur/"
+  },
+  {
+    "name": "Наборы",
+    "href": "/catalog/nabory/"
+  },
+  {
+    "name": "Напитки",
+    "href": "/catalog/drinks/"
+  },
+  {
+    "name": "Бизнес Ланч",
+    "href": "/catalog/biznes-lanch/"
+  }
+]
