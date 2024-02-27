@@ -1,0 +1,365 @@
+[
+  {
+    "name": "Колизей",
+    "url": "/catalog/pizza/kolizey/",
+    "description": "Моцарелла, томатный соус, буженина, бекон, охотничьи колбаски, курица, помидор, шампиньоны",
+    "prise": "660",
+    "weight": [
+      "670",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/165/254_197_2/165315c03182dd57a854559d90286214.png?1601044753100842"
+  },
+  {
+    "name": "Мехико",
+    "url": "/catalog/pizza/mekhiko/",
+    "description": "Моцарелла, томатный соус, сервелат, курица, помидор, перец сладкий, перец халапеньо, маслины",
+    "prise": "620",
+    "weight": [
+      "610",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/227/254_197_2/22742b96e84d7dcfdd0351206b5f53da.png?1601048044108227"
+  },
+  {
+    "name": "Дон Бекон",
+    "url": "/catalog/pizza/don-bekon/",
+    "description": "Моцарелла, томатный соус,  бекон, помидор, маслины, пармезан",
+    "prise": "590",
+    "weight": [
+      "580",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/4ea/254_197_2/4ea43c397baa3af1e16c9dc986882231.png?1601046316106066"
+  },
+  {
+    "name": "Биг-бен",
+    "url": "/catalog/pizza/big-ben/",
+    "description": "моцарелла, томатный соус, ветчина, домашняя колбаска, курица, помидоры, шампиньоны",
+    "prise": "730",
+    "weight": [
+      "900",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/e31/254_197_2/e31776e1725ab27a1c17aca2c97b5dae.png?1601044753108593"
+  },
+  {
+    "name": "Гавайская",
+    "url": "/catalog/pizza/quattro/",
+    "description": "Моцарелла, томатный соус, ананас, ветчина, сладкий перец",
+    "prise": "550",
+    "weight": [
+      "590",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/133/254_197_2/133f96083b7e90a66626fe4c92d81279.png?1601049096103600"
+  },
+  {
+    "name": "Грибная",
+    "url": "/catalog/pizza/gribnaya/",
+    "description": "Моцарелла, сливочный соус, опята, маслины, шампиньоны",
+    "prise": "580",
+    "weight": [
+      "560",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/335/254_197_2/335ad4ed68cd3df11d2ee1bdedaa5595.png?1601049117105966"
+  },
+  {
+    "name": "Дары моря",
+    "url": "/catalog/pizza/dary-morya/",
+    "description": "Моцарелла, сливочный соус, креветка, лосось, кальмар",
+    "prise": "780",
+    "weight": [
+      "550",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/88c/254_197_2/88c03b9ec7d0abd9d6938a3c68e2ca24.png?1601045933102880"
+  },
+  {
+    "name": "Деревенская",
+    "url": "/catalog/pizza/derevenskaya/",
+    "description": "Моцарелла, томатный соус, буженина, домашняя колбаска, опята, маринованный огурчик, помидор, �...",
+    "prise": "630",
+    "weight": [
+      "625",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/1c2/254_197_2/1c279714e0e67465e8c7fb97af6f01c9.png?1601044780108291"
+  },
+  {
+    "name": "Джузеппе",
+    "url": "/catalog/pizza/dzhuzeppe/",
+    "description": "Моцарелла, сливочный соус, дор-блю, курица, сладкий перец, лук, шампиньоны",
+    "prise": "620",
+    "weight": [
+      "610",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/d45/254_197_2/d4547abcb60e9f93ca405e3172201b64.png?1601044781103677"
+  },
+  {
+    "name": "Квадро Формаджи",
+    "url": "/catalog/pizza/kvadro-formadzhi/",
+    "description": "Моцарелла, сливочный соус, дор-блю, пармезан, эдам",
+    "prise": "590",
+    "weight": [
+      "580",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/5e5/254_197_2/5e5e9502d2d91186e2346fd90e0e84ca.jpg?163896272731794"
+  },
+  {
+    "name": "Пепперони",
+    "url": "/catalog/pizza/pepperoni/",
+    "description": "Моцарелла, томатный соус, пепперони",
+    "prise": "630",
+    "weight": [
+      "580",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/699/254_197_2/6990e01b84dab74240a823beb65c846a.png?160104254996322"
+  },
+  {
+    "name": "Колбасофф",
+    "url": "/catalog/pizza/kolbasoff/",
+    "description": "Моцарелла, томатный соус, сервелат, домашняя колбаска, охотничьи колбаски, пепперони, помидо�...",
+    "prise": "660",
+    "weight": [
+      "670",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/2f2/254_197_2/2f25f8b4c5c56e0801672ef7834dedb4.png?1601045206109984"
+  },
+  {
+    "name": "Токио",
+    "url": "/catalog/pizza/tokio/",
+    "description": "Моцарелла, сливочный соус, кимчи, угорь, лосось, креветка, чука, тобико",
+    "prise": "870",
+    "weight": [
+      "600",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/9f6/254_197_2/9f63f9a7d51ab83fcddeeaac7ac3cc57.png?1601044781105028"
+  },
+  {
+    "name": "Маргарита",
+    "url": "/catalog/pizza/margarita/",
+    "description": "Моцарелла, томатный соус, помидор",
+    "prise": "490",
+    "weight": [
+      "520",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/856/254_197_2/85613c5b7e7e280b0544b4c041ad2fea.png?1601045504108326"
+  },
+  {
+    "name": "Милано",
+    "url": "/catalog/pizza/milano/",
+    "description": "Моцарелла, ветчина, итальянская колбаска, маслины",
+    "prise": "550",
+    "weight": [
+      "560",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/a90/254_197_2/a906f1a4e854e2fd767c4f3f559da2ad.png?1601047196108192"
+  },
+  {
+    "name": "Московская",
+    "url": "/catalog/pizza/moskovskaya/",
+    "description": "Моцарелла, ветчина, курица, шампиньоны, сладкий перец",
+    "prise": "610",
+    "weight": [
+      "620",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/cf9/254_197_2/cf9a4df40670891b6cfa579def21fb70.png?1601047197108061"
+  },
+  {
+    "name": "Мясная",
+    "url": "/catalog/pizza/myasnaya/",
+    "description": "Моцарелла, томатный соус, говядина, сервелат, бекон, ветчина, шампиньоны, помидор",
+    "prise": "660",
+    "weight": [
+      "660",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/593/254_197_2/59361cbfd96b4cc04bfd0eb60bebb5ae.png?1601042728108593"
+  },
+  {
+    "name": "Наполи",
+    "url": "/catalog/pizza/napoli/",
+    "description": "Моцарелла, томатный соус, ветчина, курица , помидор, маслины",
+    "prise": "560",
+    "weight": [
+      "600",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/65b/254_197_2/65bb7ea131c88ebe68fc867a54f32b15.png?1601042344118723"
+  },
+  {
+    "name": "Пиканто",
+    "url": "/catalog/pizza/nyu-york/",
+    "description": "Моцарелла, томатный соус,соус ким-чи курица , ветчина, охотничьи колбаски, лук, маслины, шамп...",
+    "prise": "680",
+    "weight": [
+      "670",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/6c2/254_197_2/6c2fd592e8085e19a91e01fa792b475d.jpg?169394120729521"
+  },
+  {
+    "name": "Овощная",
+    "url": "/catalog/pizza/ovoshchnaya/",
+    "description": "Моцарелла, томатный соус, пармезан, цукини, помидор, маслины, шампиньоны, сладкий перец, зелен...",
+    "prise": "610",
+    "weight": [
+      "600",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/058/254_197_2/05860ef57ccb64ae29dc71e04ce433c8.png?1601058217107478"
+  },
+  {
+    "name": "Прошутто",
+    "url": "/catalog/pizza/proshutto/",
+    "description": "Моцарелла, томатный соус, бекон, ветчина",
+    "prise": "520",
+    "weight": [
+      "560",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/33c/254_197_2/33c4c8b4125a2fdcc5d67076cffbfd6e.jpg?159024292628594"
+  },
+  {
+    "name": "Пиноккио",
+    "url": "/catalog/pizza/pinokkio/",
+    "description": "Моцарелла, томатный соус, курица, говядина, бекон, лук, маринованный огурчики, маслины, помидо...",
+    "prise": "730",
+    "weight": [
+      "730",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/2c2/254_197_2/2c2bcf4fef1df99221bdb57c2698b04d.png?1601048203110079"
+  },
+  {
+    "name": "Ассорти",
+    "url": "/catalog/pizza/assorti/",
+    "description": "Моцарелла, томатный соус, буженина, сервелат, ветчина, курица, маслины, зелень, лук, помидор, м�...",
+    "prise": "730",
+    "weight": [
+      "720",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/93e/254_197_2/93e846e569d75c1d8b958500a2536c2b.png?1601046144111963"
+  },
+  {
+    "name": "Цезарь (с курицей/ с беконом)",
+    "url": "/catalog/pizza/tsezar-s-kuritsey-s-bekonom/",
+    "description": "Моцарелла, соус цезарь, пармезан, курица или бекон, черри, салат айсберг",
+    "prise": "690",
+    "weight": [
+      "650",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/36a/254_197_2/36a204041716a7a75ea29af93f74ec58.png?1601045550103611"
+  },
+  {
+    "name": "Пино",
+    "url": "/catalog/pizza/pino/",
+    "description": "Моцарелла, томатный соус, домашняя колбаска, помидор, зелень, черри, маслины",
+    "prise": "410",
+    "weight": [
+      "540",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/80a/254_197_2/80a1467f62ef601107cc7fae95bf3c77.png?1601045274105208"
+  },
+  {
+    "name": "Охотничья",
+    "url": "/catalog/pizza/okhotnichya/",
+    "description": "Моцарелла, томатный соус, ветчина, охотничьи колбаски, сладкий перец, помидор, зелень, лук, па�...",
+    "prise": "650",
+    "weight": [
+      "660",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/311/254_197_2/311bcb22d005cb1cd8e7b71d92d40824.png?1601046431108777"
+  },
+  {
+    "name": "Комбо из двух пицц",
+    "url": "/catalog/pizza/kombo-iz-dvukh-pitsts/",
+    "description": "В СОСТАВ ВХОДЯТ ПИЦЦЫ 25см КВАДРО ФОРМАДЖИ И КОЛИЗЕЙ\nскидки и акции на данный товар не распрос...",
+    "prise": "699",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/910/254_197_2/910656b57c0a5f8c6e34b8d90d566ada.jpg?166608800925400"
+  },
+  {
+    "name": "Комбо из трёх пицц",
+    "url": "/catalog/pizza/kombo-iz-tryekh-pitsts/",
+    "description": "В СОСТАВ ВХОДЯТ ПИЦЦЫ 25 СМ КВАДРО ФОРМАДЖИ ПЕППЕРОНИ ПРОШУТТО \nскидки и акции на данный товар...",
+    "prise": "1 099",
+    "weight": [
+      "",
+      "гр"
+    ],
+    "img": "/upload/resize_cache/iblock/491/254_197_2/491ff65984838ce0abfda45b3ae87113.jpg?166608812131101"
+  },
+  {
+    "name": "Чикен барбекю",
+    "url": "/catalog/pizza/chiken-barbekyu/",
+    "description": "Моцарелла, томатный соус, соус барбекю, курица копченая, бекон, лук",
+    "prise": "580",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/218/254_197_2/218ebe96d249db0cedef8f9944ca3406.jpg?166609920823864"
+  },
+  {
+    "name": "Римская",
+    "url": "/catalog/pizza/rimskaya/",
+    "description": "Моцарелла, томатный соус, ветчина, курица копченая, маринованный огурчик, яйцо вареное",
+    "prise": "580",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/b55/254_197_2/b55e09aa793d8a16738323cf64b21577.jpg?166610017622696"
+  },
+  {
+    "name": "Курица-грибы",
+    "url": "/catalog/pizza/kuritsa-griby/",
+    "description": "Моцарелла, томатный соус,соус ким-чи курица , ветчина, охотничьи колбаски, лук, маслины, шамп...",
+    "prise": "580",
+    "weight": [
+      "670",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/c3c/254_197_2/c3c3312286c08a1e013693a7e2aae25e.jpg?169394138636292"
+  },
+  {
+    "name": "Ветчина-грибы",
+    "url": "/catalog/pizza/vetchina-griby/",
+    "description": "Моцарелла, томатный соус,соус ким-чи курица , ветчина, охотничьи колбаски, лук, маслины, шамп...",
+    "prise": "580",
+    "weight": [
+      "670",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/feb/254_197_2/feb993cc9e2271400b7793a5184bea98.jpg?169394139033948"
+  },
+  {
+    "name": "Нью-Йорк",
+    "url": "/catalog/pizza/nyu-yor/",
+    "description": "Моцарелла, томатный соус, буженина, сервелат, ветчина, курица, маслины, зелень, лук, помидор, м�...",
+    "prise": "730",
+    "weight": [
+      "720",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/ed3/254_197_2/ed3681be3e7c130379e2debd2cef4600.jpg?169394707027465"
+  }
+]
