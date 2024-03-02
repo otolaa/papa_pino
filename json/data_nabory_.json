@@ -1,0 +1,44 @@
+[
+  {
+    "pid": "69",
+    "unit": "гр.",
+    "name": "Пивной набор Стандарт",
+    "url": "/catalog/nabory/pivnoy-nabor-standart/",
+    "description": "Наггетсы, гренки,сырные шарики,картофель фри, соус",
+    "prise": "510",
+    "weight": [
+      "330",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/7c8/254_197_2/7c8a5b19bafc9ef884a3382690388e18.jpg?159006776124262",
+    "properties": []
+  },
+  {
+    "pid": "68",
+    "unit": "гр.",
+    "name": "Пивной набор Ассорти",
+    "url": "/catalog/nabory/pivnoy-nabor-assorti/",
+    "description": "Гренки,охотничьи колбаски, картофель по -деревенски,сырные палочки 3шт, сырные шарики,",
+    "prise": "670",
+    "weight": [
+      "700",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/6a4/254_197_2/6a445c9218e03b734c5062e39b21d2a9.jpg?166611428726770",
+    "properties": []
+  },
+  {
+    "pid": "851",
+    "unit": "",
+    "name": "Комбо Сет",
+    "url": "/catalog/nabory/kombo-set/",
+    "description": "В состав комбо входит пицца Охотничья 25см и Сет Студенческий",
+    "prise": "840",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/f32/254_197_2/f32843df56a825424db2f04804a13714.jpg?166610500325547",
+    "properties": []
+  }
+]

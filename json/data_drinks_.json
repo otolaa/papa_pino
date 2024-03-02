@@ -1,0 +1,90 @@
+[
+  {
+    "pid": "41",
+    "unit": "л.",
+    "name": "Кока-Кола",
+    "url": "/catalog/drinks/koka-kola/",
+    "description": "",
+    "prise": "100",
+    "weight": [
+      "0,5",
+      "л."
+    ],
+    "img": "/upload/resize_cache/iblock/bfe/254_197_2/bfe32e26490a099c0cc6f84d547a25e2.jpg?166610739621085",
+    "properties": [
+      {
+        "title": "объём",
+        "label": [
+          "0,5 литра",
+          "1 литр"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "44",
+    "unit": "л.",
+    "name": "Фанта",
+    "url": "/catalog/drinks/fanta/",
+    "description": "",
+    "prise": "100",
+    "weight": [
+      "0.5",
+      "л."
+    ],
+    "img": "/upload/resize_cache/iblock/dbc/254_197_2/dbcefebcb81f0bb0773c6f078a8f9226.jpg?166610739621085",
+    "properties": [
+      {
+        "title": "Объем",
+        "label": [
+          "0,5 литра",
+          "1 литр"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "43",
+    "unit": "л.",
+    "name": "Спрайт",
+    "url": "/catalog/drinks/homemade-lemonade/",
+    "description": "",
+    "prise": "100",
+    "weight": [
+      "0.5",
+      "л."
+    ],
+    "img": "/upload/resize_cache/iblock/91c/254_197_2/91c9e5f89cec813911914665172a54d2.jpg?166610739621085",
+    "properties": [
+      {
+        "title": "Объем",
+        "label": [
+          "0,5 литра",
+          "1 литр"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "42",
+    "unit": "л.",
+    "name": "Сок",
+    "url": "/catalog/drinks/sok/",
+    "description": "",
+    "prise": "75",
+    "weight": [
+      "0.2",
+      "л."
+    ],
+    "img": "/upload/resize_cache/iblock/a96/254_197_2/a961ba535fb9cad7580b2dd7b075bad4.jpg?159006900421004",
+    "properties": [
+      {
+        "title": "Размер",
+        "label": [
+          "0,2 литра",
+          "1 литр"
+        ]
+      }
+    ]
+  }
+]

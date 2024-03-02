@@ -1,0 +1,43 @@
+[
+  {
+    "pid": "32",
+    "unit": "гр.",
+    "name": "Комбо-обед \"ПИНО\"",
+    "url": "/catalog/biznes-lanch/kombo-obed-russkiy-khit/",
+    "description": "ПИННЕР, КАРТОФЕЛЬ ФРИ,СОУС 25ГР, МОРС0,2",
+    "prise": "340",
+    "weight": [
+      "220",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/815/254_197_2/815575877e71adedae7c62b59436eeba.jpg?166612011619340",
+    "properties": []
+  },
+  {
+    "pid": "31",
+    "unit": "гр.",
+    "name": "Комбо-обед WoK",
+    "url": "/catalog/biznes-lanch/kombo-obed-s-tempuroy/",
+    "description": "рис WOK С КУРИЦЕЙ И СОУСОМ ТЕРИЯКИ, салат Овощной/ ВЕСЕННИЙ, МОРС 0,2",
+    "prise": "350",
+    "weight": [
+      "340",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/1f1/254_197_2/1f13f48dbdad2d5c0a79bcb117bc409e.jpg?166611574120246",
+    "properties": []
+  },
+  {
+    "pid": "30",
+    "unit": "гр.",
+    "name": "Комбо-обед с роллом",
+    "url": "/catalog/biznes-lanch/kombo-obed-s-rollom/",
+    "description": "ролл Мясной, салат чука, МОРС 0,2",
+    "prise": "350",
+    "weight": [
+      "350",
+      "гр."
+    ],
+    "properties": []
+  }
+]

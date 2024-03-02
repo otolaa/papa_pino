@@ -1,0 +1,334 @@
+[
+  {
+    "pid": "74",
+    "unit": "",
+    "name": "Креветки Тигровые",
+    "url": "/catalog/frityur/krevetki-tigrovye/",
+    "description": "Креветки, панировка, кляр,",
+    "prise": "395",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/75b/254_197_2/75bb4add3707ff7f66a79985468152cb.jpg?159006763116538",
+    "properties": [
+      {
+        "title": "Размер",
+        "label": [
+          "6 шт",
+          "12 шт"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "73",
+    "unit": "",
+    "name": "Наггетсы Куриные",
+    "url": "/catalog/frityur/naggetsy-kurinye/",
+    "description": "",
+    "prise": "190",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/92f/254_197_2/92f0508122f3716243a8eb15cb49e421.jpg?159006763215530",
+    "properties": [
+      {
+        "title": "Размер",
+        "label": [
+          "6 шт",
+          "12 шт"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "61",
+    "unit": "",
+    "name": "Охотничьи Колбаски",
+    "url": "/catalog/frityur/okhotnichi-kolbaski/",
+    "description": "",
+    "prise": "220",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/9c7/254_197_2/9c787a023facc9f0465a803bd9c15478.jpg?159006763317336",
+    "properties": [
+      {
+        "title": "Размер",
+        "label": [
+          "6 шт",
+          "12 шт"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "272",
+    "unit": "гр.",
+    "name": "Гренки Чесночные",
+    "url": "/catalog/frityur/grenki-chesnochnye/",
+    "description": "Хлеб ржаной, чеснок, соль",
+    "prise": "110",
+    "weight": [
+      "170",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/a86/254_197_2/a865c2752a3fe24a675f62a9064552f2.jpg?159006766616546",
+    "properties": []
+  },
+  {
+    "pid": "794",
+    "unit": "",
+    "name": "Сырные медальоны",
+    "url": "/catalog/frityur/syrnye-podushechki-/",
+    "description": "",
+    "prise": "290",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/9b6/254_197_2/9b607d4c71da81bedf61f0b40724986f.jpg?166611485114005",
+    "properties": [
+      {
+        "title": "6",
+        "label": [
+          "6 штук",
+          "12 штук"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "795",
+    "unit": "",
+    "name": "Сырные палочки",
+    "url": "/catalog/frityur/syrnye-palochki-/",
+    "description": "",
+    "prise": "260",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/ee5/254_197_2/ee541c8e50d994f9c55835cbb79fc456.jpg?162038926616611",
+    "properties": [
+      {
+        "title": "",
+        "label": [
+          "6 штук",
+          "12 штук"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "796",
+    "unit": "",
+    "name": "Чиз Бокс",
+    "url": "/catalog/frityur/chiz-boks/",
+    "description": "Сырные шарики, сырные палочки, сырные медальоны",
+    "prise": "480",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/c35/254_197_2/c35c91663528435c6b6ddc84a4c53d8f.jpg?166611448716176",
+    "properties": []
+  },
+  {
+    "pid": "431",
+    "unit": "",
+    "name": "Соус Томатный итальянский",
+    "url": "/catalog/frityur/sous-tomatnyy-italyanskiy/",
+    "description": "",
+    "prise": "40",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/342/254_197_2/342a7b82c43f56ed4941bb15024cd900.jpg?159059023418704",
+    "properties": [
+      {
+        "title": "Объем",
+        "label": [
+          "30 гр"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "433",
+    "unit": "",
+    "name": "Соус Цезарь",
+    "url": "/catalog/frityur/sous-tsezar/",
+    "description": "",
+    "prise": "40",
+    "weight": [
+      "",
+      ""
+    ],
+    "properties": [
+      {
+        "title": "Объем",
+        "label": [
+          "30гр"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "434",
+    "unit": "",
+    "name": "Соус Спайси",
+    "url": "/catalog/frityur/sous-spaysi/",
+    "description": "",
+    "prise": "40",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/2d7/254_197_2/2d70c26c00d63a1378fde2e1d0ec9b14.jpg?159059023616903",
+    "properties": [
+      {
+        "title": "Объем",
+        "label": [
+          "30 гр"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "435",
+    "unit": "",
+    "name": "Соус Фирменный",
+    "url": "/catalog/frityur/sous-firmennyy/",
+    "description": "",
+    "prise": "40",
+    "weight": [
+      "",
+      ""
+    ],
+    "properties": [
+      {
+        "title": "Объем",
+        "label": [
+          "30 гр"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "437",
+    "unit": "",
+    "name": "Соус Карри",
+    "url": "/catalog/frityur/sous-karri/",
+    "description": "",
+    "prise": "40",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/c8c/254_197_2/c8ce3b9a64a26f3f8cd2ba6272602c13.jpg?159059023816584",
+    "properties": [
+      {
+        "title": "Объем",
+        "label": [
+          "30 гр"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "438",
+    "unit": "",
+    "name": "Соус Барбекю",
+    "url": "/catalog/frityur/sous-barbekyu/",
+    "description": "",
+    "prise": "40",
+    "weight": [
+      "",
+      ""
+    ],
+    "img": "/upload/resize_cache/iblock/867/254_197_2/867b968c5bca62d500c6870d5554af6b.jpg?159059338916585",
+    "properties": [
+      {
+        "title": "Объем",
+        "label": [
+          "30гр"
+        ]
+      }
+    ]
+  },
+  {
+    "pid": "439",
+    "unit": "гр.",
+    "name": "Соус Сырный",
+    "url": "/catalog/frityur/sous-syrnyy/",
+    "description": "",
+    "prise": "30",
+    "weight": [
+      "25",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/2f7/254_197_2/2f7ccd6f00bea4bbb7f79ecdaf48b097.jpg?159059288231739",
+    "properties": []
+  },
+  {
+    "pid": "440",
+    "unit": "гр.",
+    "name": "Соус Кисло-сладкий",
+    "url": "/catalog/frityur/sous-kislo-sladkiy/",
+    "description": "",
+    "prise": "30",
+    "weight": [
+      "25",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/c18/254_197_2/c181b25579a853950e62c046f775b6da.jpg?159059288231739",
+    "properties": []
+  },
+  {
+    "pid": "63",
+    "unit": "шт.",
+    "name": "Сырные Шарики",
+    "url": "/catalog/frityur/syrnye-shariki/",
+    "description": "Моцарелла, яйцо, зелень, мука, панировка",
+    "prise": "340",
+    "weight": [
+      "10",
+      "шт."
+    ],
+    "img": "/upload/resize_cache/iblock/4a6/254_197_2/4a602fdde420d1f4cc6a3888c83f7bab.jpg?159006767115309",
+    "properties": []
+  },
+  {
+    "pid": "62",
+    "unit": "гр.",
+    "name": "Картофель Фри",
+    "url": "/catalog/frityur/kartofel-fri/",
+    "description": "",
+    "prise": "185",
+    "weight": [
+      "130",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/b0a/254_197_2/b0a0b0b3e2afeee6e70bd13074c161a8.jpg?159006767216912",
+    "properties": []
+  },
+  {
+    "pid": "60",
+    "unit": "гр.",
+    "name": "Картофель По-Деревенски",
+    "url": "/catalog/frityur/kartofel-po-derevenski/",
+    "description": "",
+    "prise": "185",
+    "weight": [
+      "130",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/ba4/254_197_2/ba4b30f5fb3aa9f5742186445da98e5d.jpg?159006767217387",
+    "properties": []
+  }
+]

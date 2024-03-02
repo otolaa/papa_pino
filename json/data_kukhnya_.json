@@ -1,0 +1,44 @@
+[
+  {
+    "pid": "778",
+    "unit": "гр.",
+    "name": "Пиннер",
+    "url": "/catalog/kukhnya/pinner/",
+    "description": "",
+    "prise": "165",
+    "weight": [
+      "0,196",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/67c/254_197_2/67cdf5e0424eb6bb28ca01c9ba051268.jpg?159724907217913",
+    "properties": []
+  },
+  {
+    "pid": "309",
+    "unit": "гр.",
+    "name": "Чизкейк",
+    "url": "/catalog/kukhnya/chizkeyk/",
+    "description": "Уточняйте у оператора",
+    "prise": "170",
+    "weight": [
+      "110",
+      "гр."
+    ],
+    "img": "/upload/resize_cache/iblock/426/254_197_2/426a517c20084dbdfebf3e52fa8cc873.jpg?159006762516080",
+    "properties": []
+  },
+  {
+    "pid": "848",
+    "unit": "гр",
+    "name": "Пиннер острый",
+    "url": "/catalog/kukhnya/pinner-ostryy/",
+    "description": "",
+    "prise": "165",
+    "weight": [
+      "196",
+      "гр"
+    ],
+    "img": "/upload/resize_cache/iblock/69a/254_197_2/69a4a222ee4abc6d47e231a1b3b3b35a.jpg?166609640615859",
+    "properties": []
+  }
+]
