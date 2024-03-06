@@ -45,7 +45,12 @@ def get_doc():
             if len(offer['properties']) > 0:
                 '''_@_@_'''
                 for prop in offer['properties']:
-                    pass
+                    propParameter = etree.SubElement(propsParameters, 'parameter', id=str(get_id()))
+                    etree.SubElement(propParameter, 'price').text = prop['prise']
+                    etree.SubElement(propParameter, 'description').text = prop['title']
+
+                    unit = offer['unit'] if len(offer['unit']) > 0 else 'шт.'
+                    etree.SubElement(propParameter, 'descriptionIndex').text = str(get_description_index(unit))
                 
             else:
                 propParameter = etree.SubElement(propsParameters, 'parameter', id=str(get_id()))
