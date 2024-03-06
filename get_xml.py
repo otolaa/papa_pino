@@ -1,11 +1,8 @@
 from lxml import etree, objectify
 import datetime, json, sys
+from help import *
 
 
-def load_json(path):
-    with open(path, 'r', encoding='utf-8') as f:
-        return json.load(f)
-    
 def get_doc():
     ''' create the root element '''
     today = datetime.date.today()
@@ -39,34 +36,33 @@ def get_doc():
             etree.SubElement(offerElem, 'name').text = offer['name']
             
             if offer['description']:
-                etree.SubElement(offerElem, 'description').text = f"<![CDATA[{offer['description'].replace('�','')}]]>"
+                etree.SubElement(offerElem, 'description').text = offer['description'].replace('�','')
             
             etree.SubElement(offerElem, 'picture').text = f"https://xn--80aayufbbb.xn--p1ai{offer['url']}"
             etree.SubElement(offerElem, 'categoryId').text = str(int)
-            
-            if offer['prise']:
-                etree.SubElement(offerElem, 'price').text = offer['prise']
-            
-            if offer['weight'] and len(offer['weight']) > 0 and len(offer['weight'][0]) > 0:
-                w = float(offer['weight'][0].replace(',','.'))
-                we = w/1000
-                etree.SubElement(offerElem, 'weight').text = str(we)
-            
-            # <param name="Размер экрана" unit="дюйм">27</param>
-            if len(offer['properties'])>0:
-                for pro in offer['properties']:
-                    if pro['title'] == 'Дополнительно:':
-                        continue
 
-                    label_ = (pro['label'][0]).strip().split(' ')
-                    if len(label_)>=2:
-                        label_title = (pro['title']).replace('Объем','Размер').replace('объём','Размер')
-                        if label_[1] == 'штук' or label_[1] == 'шт':
-                            label_title = 'Размер'
-                            label_[1] = 'штук'
-
-                        etree.SubElement(offerElem, 'param', name=label_title, unit=label_[1]).text = label_[0].replace(',','.')
-
+            propsParameters = etree.SubElement(offerElem, 'parameters')
+            if len(offer['properties']) > 0:
+                '''_@_@_'''
+                for prop in offer['properties']:
+                    pass
+                
+            else:
+                propParameter = etree.SubElement(propsParameters, 'parameter', id=str(get_id()))
+                
+                if offer['prise']:
+                    etree.SubElement(propParameter, 'price').text = offer['prise']
+                
+                try:
+                    if offer['weight'] and len(offer['weight']) > 0 and len(offer['weight'][0]) > 0:
+                        etree.SubElement(propParameter, 'description').text = str(offer['weight'][0])
+                    
+                    unit = offer['unit'] if len(offer['unit']) > 0 else 'шт.'
+                    etree.SubElement(propParameter, 'descriptionIndex').text = str(get_description_index(unit))
+                
+                except Exception as e:
+                    p(offer['name'], offer['unit'], sys.exc_info()[1])
+        
         print(f'\033[32m[+] {int} add: {code_page}\033[0m', end='\n')
 
 

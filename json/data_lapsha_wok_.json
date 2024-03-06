@@ -14,43 +14,251 @@
     "properties": [
       {
         "title": "Основа",
-        "label": [
-          "С овощами",
-          "Без овощей"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "199",
+            "old-price": "",
+            "weight": "250",
+            "title": "С овощами"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "199",
+            "old-price": "",
+            "weight": "250",
+            "title": "Без овощей"
+          }
         ]
       },
       {
         "title": "Соус",
-        "label": [
-          "Соус устричный",
-          "Соус пикантный",
-          "Соус терияки",
-          "Соус карри",
-          "Соус сливочный",
-          "Соус унаги"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "0",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус устричный"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "1",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус пикантный"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "2",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус терияки"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "3",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус карри"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "4",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус сливочный"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "5",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус унаги"
+          }
         ]
       },
       {
         "title": "Дополнительно:",
-        "label": [
-          "Говядина",
-          "Свинина",
-          "Курица",
-          "Лосось",
-          "Креветка",
-          "Микс (лосось, кальмар, креветка)",
-          "Баклажан",
-          "Шиитаке",
-          "Шампиньоны",
-          "Цукини",
-          "Чука",
-          "Кунжут",
-          "Соус устричный",
-          "Соус пикантный",
-          "Соус унаги",
-          "Соус терияки",
-          "Соус карри",
-          "Соус сливочный"
+        "labels": [
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_633",
+            "value": "633",
+            "old-price": "0",
+            "price": "129",
+            "weight": "50",
+            "title": "Говядина"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_634",
+            "value": "634",
+            "old-price": "0",
+            "price": "89",
+            "weight": "50",
+            "title": "Свинина"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_635",
+            "value": "635",
+            "old-price": "0",
+            "price": "89",
+            "weight": "50",
+            "title": "Курица"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_636",
+            "value": "636",
+            "old-price": "0",
+            "price": "179",
+            "weight": "50",
+            "title": "Лосось"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_638",
+            "value": "638",
+            "old-price": "0",
+            "price": "169",
+            "weight": "50",
+            "title": "Креветка"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_639",
+            "value": "639",
+            "old-price": "0",
+            "price": "169",
+            "weight": "50",
+            "title": "Микс (лосось, кальмар, креветка)"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_640",
+            "value": "640",
+            "old-price": "0",
+            "price": "49",
+            "weight": "50",
+            "title": "Баклажан"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_641",
+            "value": "641",
+            "old-price": "0",
+            "price": "99",
+            "weight": "50",
+            "title": "Шиитаке"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_642",
+            "value": "642",
+            "old-price": "0",
+            "price": "59",
+            "weight": "50",
+            "title": "Шампиньоны"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_643",
+            "value": "643",
+            "old-price": "0",
+            "price": "59",
+            "weight": "50",
+            "title": "Цукини"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_644",
+            "value": "644",
+            "old-price": "0",
+            "price": "69",
+            "weight": "50",
+            "title": "Чука"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_645",
+            "value": "645",
+            "old-price": "0",
+            "price": "15",
+            "weight": "5",
+            "title": "Кунжут"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_653",
+            "value": "653",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус устричный"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_654",
+            "value": "654",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус пикантный"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_655",
+            "value": "655",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус унаги"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_656",
+            "value": "656",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус терияки"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_657",
+            "value": "657",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус карри"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_658",
+            "value": "658",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус сливочный"
+          }
         ]
       }
     ]
@@ -70,44 +278,260 @@
     "properties": [
       {
         "title": "Основа",
-        "label": [
-          "С овощами",
-          "Без овощей"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "199",
+            "old-price": "",
+            "weight": "250",
+            "title": "С овощами"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "199",
+            "old-price": "",
+            "weight": "250",
+            "title": "Без овощей"
+          }
         ]
       },
       {
         "title": "Соус",
-        "label": [
-          "Соус пикантный",
-          "Соус терияки",
-          "Соус карри",
-          "Соус сливочный",
-          "Соус устричный",
-          "Соус унаги"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "0",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус пикантный"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "1",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус терияки"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "2",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус карри"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "3",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус сливочный"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "4",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус устричный"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_2",
+            "value": "5",
+            "price": "0",
+            "old-price": "",
+            "weight": "50",
+            "title": "Соус унаги"
+          }
         ]
       },
       {
         "title": "Дополнительно:",
-        "label": [
-          "Говядина",
-          "Свинина",
-          "Курица",
-          "Лосось",
-          "Угорь",
-          "Креветка",
-          "Микс (лосось, кальмар, креветка)",
-          "Баклажан",
-          "Шиитаке",
-          "Шампиньоны",
-          "Цукини",
-          "Чука",
-          "Кунжут",
-          "Соус устричный",
-          "Соус пикантный",
-          "Соус унаги",
-          "Соус терияки",
-          "Соус карри",
-          "Соус сливочный"
+        "labels": [
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_633",
+            "value": "633",
+            "old-price": "0",
+            "price": "129",
+            "weight": "50",
+            "title": "Говядина"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_634",
+            "value": "634",
+            "old-price": "0",
+            "price": "89",
+            "weight": "50",
+            "title": "Свинина"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_635",
+            "value": "635",
+            "old-price": "0",
+            "price": "89",
+            "weight": "50",
+            "title": "Курица"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_636",
+            "value": "636",
+            "old-price": "0",
+            "price": "179",
+            "weight": "50",
+            "title": "Лосось"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_637",
+            "value": "637",
+            "old-price": "0",
+            "price": "169",
+            "weight": "50",
+            "title": "Угорь"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_638",
+            "value": "638",
+            "old-price": "0",
+            "price": "169",
+            "weight": "50",
+            "title": "Креветка"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_639",
+            "value": "639",
+            "old-price": "0",
+            "price": "169",
+            "weight": "50",
+            "title": "Микс (лосось, кальмар, креветка)"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_640",
+            "value": "640",
+            "old-price": "0",
+            "price": "49",
+            "weight": "50",
+            "title": "Баклажан"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_641",
+            "value": "641",
+            "old-price": "0",
+            "price": "99",
+            "weight": "50",
+            "title": "Шиитаке"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_642",
+            "value": "642",
+            "old-price": "0",
+            "price": "59",
+            "weight": "50",
+            "title": "Шампиньоны"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_643",
+            "value": "643",
+            "old-price": "0",
+            "price": "59",
+            "weight": "50",
+            "title": "Цукини"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_644",
+            "value": "644",
+            "old-price": "0",
+            "price": "69",
+            "weight": "50",
+            "title": "Чука"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_645",
+            "value": "645",
+            "old-price": "0",
+            "price": "15",
+            "weight": "5",
+            "title": "Кунжут"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_653",
+            "value": "653",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус устричный"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_654",
+            "value": "654",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус пикантный"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_655",
+            "value": "655",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус унаги"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_656",
+            "value": "656",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус терияки"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_657",
+            "value": "657",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус карри"
+          },
+          {
+            "type": "checkbox",
+            "name": "ADD_OPTION_658",
+            "value": "658",
+            "old-price": "0",
+            "price": "25",
+            "weight": "50",
+            "title": "Соус сливочный"
+          }
         ]
       }
     ]

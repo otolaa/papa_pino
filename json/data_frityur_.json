@@ -14,9 +14,25 @@
     "properties": [
       {
         "title": "Размер",
-        "label": [
-          "6 шт",
-          "12 шт"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "440",
+            "old-price": "",
+            "weight": "",
+            "title": "6 шт"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "810",
+            "old-price": "",
+            "weight": "",
+            "title": "12 шт"
+          }
         ]
       }
     ]
@@ -36,9 +52,25 @@
     "properties": [
       {
         "title": "Размер",
-        "label": [
-          "6 шт",
-          "12 шт"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "190",
+            "old-price": "",
+            "weight": "",
+            "title": "6 шт"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "330",
+            "old-price": "",
+            "weight": "",
+            "title": "12 шт"
+          }
         ]
       }
     ]
@@ -58,9 +90,25 @@
     "properties": [
       {
         "title": "Размер",
-        "label": [
-          "6 шт",
-          "12 шт"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "240",
+            "old-price": "",
+            "weight": "",
+            "title": "6 шт"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "410",
+            "old-price": "",
+            "weight": "",
+            "title": "12 шт"
+          }
         ]
       }
     ]
@@ -94,9 +142,25 @@
     "properties": [
       {
         "title": "6",
-        "label": [
-          "6 штук",
-          "12 штук"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "290",
+            "old-price": "",
+            "weight": "",
+            "title": "6 штук"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "490",
+            "old-price": "",
+            "weight": "",
+            "title": "12 штук"
+          }
         ]
       }
     ]
@@ -116,9 +180,25 @@
     "properties": [
       {
         "title": "",
-        "label": [
-          "6 штук",
-          "12 штук"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "260",
+            "old-price": "",
+            "weight": "",
+            "title": "6 штук"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "420",
+            "old-price": "",
+            "weight": "",
+            "title": "12 штук"
+          }
         ]
       }
     ]
@@ -152,8 +232,16 @@
     "properties": [
       {
         "title": "Объем",
-        "label": [
-          "30 гр"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "40",
+            "old-price": "",
+            "weight": "",
+            "title": "30 гр"
+          }
         ]
       }
     ]
@@ -172,8 +260,16 @@
     "properties": [
       {
         "title": "Объем",
-        "label": [
-          "30гр"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "40",
+            "old-price": "",
+            "weight": "",
+            "title": "30гр"
+          }
         ]
       }
     ]
@@ -193,8 +289,16 @@
     "properties": [
       {
         "title": "Объем",
-        "label": [
-          "30 гр"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "40",
+            "old-price": "",
+            "weight": "",
+            "title": "30 гр"
+          }
         ]
       }
     ]
@@ -213,8 +317,16 @@
     "properties": [
       {
         "title": "Объем",
-        "label": [
-          "30 гр"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "40",
+            "old-price": "",
+            "weight": "",
+            "title": "30 гр"
+          }
         ]
       }
     ]
@@ -234,8 +346,16 @@
     "properties": [
       {
         "title": "Объем",
-        "label": [
-          "30 гр"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "40",
+            "old-price": "",
+            "weight": "",
+            "title": "30 гр"
+          }
         ]
       }
     ]
@@ -255,8 +375,16 @@
     "properties": [
       {
         "title": "Объем",
-        "label": [
-          "30гр"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "40",
+            "old-price": "",
+            "weight": "",
+            "title": "30гр"
+          }
         ]
       }
     ]

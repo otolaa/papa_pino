@@ -14,9 +14,25 @@
     "properties": [
       {
         "title": "объём",
-        "label": [
-          "0,5 литра",
-          "1 литр"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "100",
+            "old-price": "",
+            "weight": "",
+            "title": "0,5 литра"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "160",
+            "old-price": "",
+            "weight": "",
+            "title": "1 литр"
+          }
         ]
       }
     ]
@@ -36,9 +52,25 @@
     "properties": [
       {
         "title": "Объем",
-        "label": [
-          "0,5 литра",
-          "1 литр"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "100",
+            "old-price": "",
+            "weight": "",
+            "title": "0,5 литра"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "160",
+            "old-price": "",
+            "weight": "",
+            "title": "1 литр"
+          }
         ]
       }
     ]
@@ -58,9 +90,25 @@
     "properties": [
       {
         "title": "Объем",
-        "label": [
-          "0,5 литра",
-          "1 литр"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "100",
+            "old-price": "",
+            "weight": "0,5 л.",
+            "title": "0,5 литра"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "160",
+            "old-price": "",
+            "weight": "1 л.",
+            "title": "1 литр"
+          }
         ]
       }
     ]
@@ -80,9 +128,25 @@
     "properties": [
       {
         "title": "Размер",
-        "label": [
-          "0,2 литра",
-          "1 литр"
+        "labels": [
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "0",
+            "price": "75",
+            "old-price": "",
+            "weight": "",
+            "title": "0,2 литра"
+          },
+          {
+            "type": "radio",
+            "name": "OPTION_1",
+            "value": "1",
+            "price": "170",
+            "old-price": "",
+            "weight": "",
+            "title": "1 литр"
+          }
         ]
       }
     ]

@@ -8,26 +8,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from help import *
 
-
-def p(text, *args):
-    print(text, *args, sep=' / ', end='\n')
-
-def wtf(html, pg):
-    with open(f'./html/html{pg}.txt', "w", encoding='utf8') as f:
-        f.write(html)
-
-def lf(filename):
-    with open(filename, 'r') as f:
-        return f.read()
-
-def write_json(data, path):
-    with open(path, 'w', encoding='utf8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)  
-
-def load_json(path):
-    with open(path, 'r', encoding='utf-8') as f:
-        return json.load(f)
 
 def get_pagen(browser, *args):
     try:
@@ -118,6 +100,21 @@ def get_links(html):
     
     return r
 
+def get_attr_tag(tag):
+    '''  '''
+    attrs = {}
+    for key, value in tag.attrs.items():
+        ss = -1
+        for s in ['data-price', 'data-weight', 'data-old-price']:
+            ss = key.find(s)
+            if ss >= 0:
+                attrs[s.replace('data-','')] = value
+
+        if ss == -1 and key in ['value', 'type', 'name']:
+            attrs[key] = value
+
+    return attrs
+
 def get_properties(property_item):
     pro = []
     for prop_div in property_item.find_all('div', {"class":"row"}):
@@ -129,12 +126,24 @@ def get_properties(property_item):
             if prop_title == 'Дополнительно:':
                 continue
             
-            prop_l = prop_div.find_all('span', {})
-            
+            labels_ = []
+            for ls in prop_div.find_all('label', {}):
+                #---@@@$$$@@@---#
+                l_item = {}
+                l_title = ls.text.strip()
+                
+                input_item = ls.find('input')
+                if input_item is not None:
+                    l_item = get_attr_tag(input_item)
+                    if len(l_title) > 0:
+                        l_item['title'] = l_title
+
+                if len(l_item) > 0:
+                    labels_.append(l_item)
             
             lb = {}
-            lb['title'] = prop_t.text.strip()
-            lb['label'] = [ls.text.strip() for ls in prop_l if len(ls.text.strip()) > 0]
+            lb['title'] = prop_title
+            lb['labels'] = labels_
             pro.append(lb)
     
     sr = []
@@ -142,15 +151,22 @@ def get_properties(property_item):
         prop_t = pro_div.find('div', {"class":"option_title"})
 
         if prop_t is None:
-            for spn in pro_div.find_all('span', {}):
+            for spn in pro_div.find_all('label', {}):
+                l1_item = {}
                 span_t = spn.text.strip()
-                if len(span_t) > 0:
-                    sr.append(span_t)
 
+                input_item_1 = spn.find('input')
+                if input_item_1 is not None:
+                    l1_item = get_attr_tag(input_item_1)
 
-    
+                    if len(span_t) > 0:
+                        l1_item['title'] = span_t
+
+                if len(l1_item) > 0:
+                    sr.append(l1_item)
+
     if len(sr) > 0:
-        pro.append({'title':'Дополнительно:','label':sr})
+        pro.append({'title':'Дополнительно:','labels':sr})
 
     return pro
 
