@@ -11,3 +11,9 @@ $ python3 papa_pino.py
 ```
 $ python3 get_xml.py
 ```
+
+### 🍕🍔🍟 this result in files
+
+```
+/xml/x1.xml
+```
