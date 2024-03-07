@@ -236,7 +236,7 @@ if __name__ == "__main__":
         url_path = href_['href']
         code_page = url_path.replace('/catalog/','').replace('/','').replace('-','_')
         #--------------------------$$$---------------------------------#
-        print(f'\033[32m[+] start {url_path} code {code_page} \033[0m', end='\n')
+        pcolor(f'[+] start {url_path} code {code_page}')
 
         #--------------------------$$$---------------------------------#
         pg = f'_{code_page}_'        
@@ -247,4 +247,4 @@ if __name__ == "__main__":
         data = get_items(html=html_)
         write_json(data, f'./json/data{pg}.json')
 
-        print(f'\033[32m[+] parse: {len(data)} element \033[0m', end='\n')
+        pcolor(f'[+] parse: {len(data)} element')
